@@ -9,7 +9,7 @@ organization — three Microsoft Copilot agents in production, a Retrieval-Augme
 Generation platform on AWS Bedrock, and an internal AI enablement platform now at
 150+ users and 10,000+ sessions.
 
-📍 Relocating to Fremont, CA · open to AI solutions architecture and enterprise AI roles
+📍 New York, NY · open to relocating to Fremont, CA · open to AI solutions architecture and enterprise AI roles
 
 ---
 
