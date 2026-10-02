@@ -2,8 +2,8 @@
 
 **AI Solutions Architect** — enterprise data and AI platforms, and AI enablement.
 
-I turn manual, ad-hoc work into reusable systems other teams adopt. Twenty years in
-enterprise data management; the last two building GenAI at a Federal Reserve trading and markets organization —
+I turn manual, ad-hoc work into reusable systems other teams adopt. Background in
+enterprise data management; now building GenAI at a Federal Reserve trading and markets organization —
 a production Retrieval-Augmented Generation platform on AWS Bedrock, proofs of
 concept for three AI agents, and an internal AI enablement program with 100+ users.
 
