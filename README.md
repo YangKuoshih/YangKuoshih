@@ -1,10 +1,9 @@
 # Kuoshih (Tony) Yang
 
-**AI Solutions Architect** — enterprise AI platform, governance, and enablement.
+**AI Solutions Architect** — enterprise data and AI platforms, and AI enablement.
 
-I turn manual, ad-hoc work into reusable systems other teams adopt, and I write the
-governance those systems run under. Twenty years in enterprise data management; the
-last two building GenAI at a Federal Reserve trading and markets organization —
+I turn manual, ad-hoc work into reusable systems other teams adopt. Twenty years in
+enterprise data management; the last two building GenAI at a Federal Reserve trading and markets organization —
 a production Retrieval-Augmented Generation platform on AWS Bedrock, proofs of
 concept for three AI agents, and an internal AI enablement program with 100+ users.
 
@@ -24,7 +23,7 @@ Everything below was built that way, and I can defend every design call in it.
 
 | Project | What it is |
 |---|---|
-| **[security-audit](https://github.com/YangKuoshih/security-audit)** | AI security scanner — 44 detection rules across secrets and OWASP Top 10, validated against GitLeaks, with LLM-based false-positive filtering. SARIF output for GitHub code scanning. Apache-2.0. |
+| **[security-audit](https://github.com/YangKuoshih/security-audit)** | AI security scanner — 60 detection rules (46 GitLeaks-informed secret patterns, 14 OWASP Top 10 checks) plus 15 dangerous-file checks, with LLM-based false-positive filtering. SARIF output for GitHub code scanning. Apache-2.0. |
 | **[smart-chef-pantry-concierge](https://github.com/YangKuoshih/buildwithgemini-smart-chef-pantry-concierge)** | Multi-agent culinary concierge on Google ADK — Gemini 2.5 Flash, Vertex AI Agent Runtime, A2A protocol, A2UI components, RAG over a recipe corpus, deployed to Cloud Run. |
 | **[MarketSounding](https://github.com/YangKuoshih/MarketSounding)** | Multi-agent market intelligence platform. Enter a macro event — FOMC decision, tariff shock — and five primary-dealer AI agents debate it in real time. |
 | **[fathom](https://github.com/YangKuoshih/fathom)** | Autonomous web research agent. Searches, extracts, and synthesizes sourced reports with full traceability and version history. |
@@ -37,9 +36,9 @@ Everything below was built that way, and I can defend every design call in it.
   scoring and query expansion, plus a custom int8-quantized vector store that cut
   embedding storage 4× at sub-100ms retrieval.
   Eight LLM backends behind one adapter, an MCP server, 62 test suites.
-- **[Table Tennis SB](https://apps.apple.com/app/id6751131004)** — iOS & Android match
+- **[Table Tennis SB](https://apps.apple.com/app/id6751131004)** — iOS match
   tracking for competitive junior players. Live on the App Store: four languages,
-  in-app purchases, 750+ commits over 14 months. Built it because my son competes on
+  in-app purchases, 750+ commits over 16 months. Built it because my son competes on
   the US National Juniors team.
 - **Whiskey Sensei** — gamified prompt-engineering platform on AWS Bedrock with API
   Gateway, Cognito, and DynamoDB, provisioned through eight Terraform modules.
