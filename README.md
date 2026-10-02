@@ -4,10 +4,9 @@
 
 I turn manual, ad-hoc work into reusable systems other teams adopt, and I write the
 governance those systems run under. Twenty years in enterprise data management; the
-last two building production GenAI at a Federal Reserve trading and markets
-organization — three Microsoft Copilot agents in production, a Retrieval-Augmented
-Generation platform on AWS Bedrock, and an internal AI enablement platform now at
-150+ users and 10,000+ sessions.
+last two building GenAI at a Federal Reserve trading and markets organization —
+a production Retrieval-Augmented Generation platform on AWS Bedrock, proofs of
+concept for three AI agents, and an internal AI enablement program with 100+ users.
 
 📍 New York, NY · open to relocating to Fremont, CA · open to AI solutions architecture and enterprise AI roles
 
@@ -36,7 +35,7 @@ Everything below was built that way, and I can defend every design call in it.
 
 - **BeeQuill** — local-first AI meeting notes. LangGraph retrieval agent with confidence
   scoring and query expansion, plus a custom int8-quantized vector store that cut
-  embedding storage 4× (37 MB vs 146 MB per 100k segments) at sub-100ms retrieval.
+  embedding storage 4× at sub-100ms retrieval.
   Eight LLM backends behind one adapter, an MCP server, 62 test suites.
 - **[Table Tennis SB](https://apps.apple.com/app/id6751131004)** — iOS & Android match
   tracking for competitive junior players. Live on the App Store: four languages,
